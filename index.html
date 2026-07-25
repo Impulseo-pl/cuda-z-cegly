@@ -3,135 +3,254 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cuda z Cegły - Stara cegła rozbiórkowa i płytki z cegły · Żyrardów</title>
-<meta name="description" content="Cuda z Cegły w Żyrardowie - skład starej cegły rozbiórkowej i płytek z cegły na ściany. Cegła pełna z odzysku, płytki i naroża w wielu odcieniach, sortowane i czyszczone, z transportem. Zadzwoń i zapytaj o dostępność.">
+<title>Cuda z Cegły - stara cegła rozbiórkowa i płytki z cegły | Żyrardów</title>
+<meta name="description" content="Cuda z Cegły w Żyrardowie - skład starej cegły rozbiórkowej i płytek z cegły na ściany. Cegła pełna z odzysku, płytki i naroża w wielu odcieniach, sortowane i czyszczone, z transportem. Zadzwoń: 506 927 780.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
-<meta name="nb-deploy" content="8c9084a03020">
 </head>
 <body>
 
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Cuda z Cegły</span><span class="sub">Stara cegła i płytki z cegły</span></a>
-    <nav class="nav-links">
-      <a href="index.html" class="active">Strona główna</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="oferta.html">Oferta</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="util">
+    <div class="wrap util-inner">
+      <span class="util-left">Skład starej cegły · Żyrardów · z transportem</span>
+      <nav class="util-menu">
+        <a href="#onas">O nas</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#realizacje">Realizacje</a>
+        <a href="#proces">Jak zamówić</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a href="tel:+48506927780" class="util-phone">☎ 506&nbsp;927&nbsp;780</a>
+    </div>
   </div>
+  <div class="wrap main-nav">
+    <a class="logo" href="#top">
+      <span class="lg-name">Cuda z Cegły</span>
+      <span class="lg-sub">Stara cegła i płytki</span>
+    </a>
+    <nav class="cats" id="cats">
+      <a href="#realizacje" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8 6l1.5-2h5L16 6"/></svg></span>
+        <span class="cat-t">Realizacje</span>
+      </a>
+      <a href="#produkty" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="1"/><path d="M3 12h18"/><path d="M9 6v6"/><path d="M15 12v6"/></svg></span>
+        <span class="cat-t">Cegła pełna</span>
+      </a>
+      <a href="#produkty" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="8" height="4" rx="1"/><rect x="13" y="7" width="8" height="4" rx="1"/><rect x="3" y="13" width="8" height="4" rx="1"/><rect x="13" y="13" width="8" height="4" rx="1"/></svg></span>
+        <span class="cat-t">Płytki</span>
+      </a>
+      <a href="#produkty" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><path d="M5 5v14h14"/><path d="M5 12h7v7"/></svg></span>
+        <span class="cat-t">Naroża</span>
+      </a>
+      <a href="#produkty" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M12 9c1.6 2 2.2 3.1 2.2 4.2a2.2 2.2 0 1 1-4.4 0C9.8 12 10.4 11 12 9z"/></svg></span>
+        <span class="cat-t">Kominek</span>
+      </a>
+      <a href="#produkty" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-5 8 5v11"/><path d="M4 20h16"/><path d="M9 20v-6h6v6"/></svg></span>
+        <span class="cat-t">Elewacja</span>
+      </a>
+      <a href="#kontakt" class="cat">
+        <span class="cat-ic"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="12" height="8" rx="1"/><path d="M14 10h4l3 3v2h-7z"/><circle cx="7.5" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></span>
+        <span class="cat-t">Transport</span>
+      </a>
+    </nav>
+    <a href="#kontakt" class="search">
+      <span class="search-ic"><svg viewBox="0 0 24 24"><path d="M9 11l2 2 4-4M5 4h14v16l-7-3-7 3z"/></svg></span>
+      <span class="search-t">Wyceń</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="drawer" id="drawer">
+    <a href="#onas">O nas</a>
+    <a href="#produkty">Produkty</a>
+    <a href="#realizacje">Realizacje</a>
+    <a href="#proces">Jak zamówić</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="tel:+48506927780" class="btn btn-accent">Zadzwoń: 506 927 780</a>
+  </nav>
 </header>
 
-<section class="hero-cine">
-  <img src="img/hero.jpg" alt="Cuda z Cegły - Stara cegła, która nadaje wnętrzu charakter">
-  <div class="wrap">
-    <div class="hero-copy">
-      <span class="eyebrow">Skład starej cegły · Żyrardów</span>
-      <h1>Stara cegła, która nadaje wnętrzu charakter</h1>
-      <p class="lead">Cegła rozbiórkowa z odzysku i płytki cięte z pełnej starej cegły - na ścianę w salonie, kominek, elewację czy ogród. Każdą partię sortujemy i czyścimy, dobieramy odcień pod to, co chcesz uzyskać, i dowozimy na miejsce. Żyrardów i okolice.</p>
-      <div class="hero-actions">
-        <a href="realizacje.html" class="btn btn-accent">Zobacz realizacje <span class="arr">→</span></a>
-        <a href="kontakt.html" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.45)">Zapytaj o wycenę</a>
+<a id="top"></a>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg">
+    <img src="img/hero.jpg" alt="Ceglana ściana z odzyskanej cegły - Cuda z Cegły Żyrardów">
+    <div class="hero-scrim"></div>
+  </div>
+  <div class="wrap hero-inner">
+    <h1 class="reveal">Stara cegła, która nadaje wnętrzu charakter</h1>
+    <p class="hero-sub reveal">Cegła rozbiórkowa z&nbsp;odzysku i&nbsp;płytki cięte z&nbsp;pełnej starej cegły - na ścianę w&nbsp;salonie, kominek, elewację czy ogród. Każdą partię sortujemy, czyścimy i&nbsp;dobieramy odcień, a&nbsp;zamówienie dowozimy na miejsce. Żyrardów i&nbsp;okolice.</p>
+    <div class="hero-btns reveal">
+      <a href="#kontakt" class="btn btn-accent btn-lg">Zapytaj o&nbsp;dostępność</a>
+      <a href="tel:+48506927780" class="btn btn-hero-ghost btn-lg">Zadzwoń: 506&nbsp;927&nbsp;780</a>
+    </div>
+  </div>
+  <div class="hero-badge reveal">
+    <span class="hb-ic"><svg viewBox="0 0 24 24" fill="#fff" stroke="none"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37L2.75 9.53l6.4-.93L12 2.8Z"/></svg></span>
+    <div>
+      <strong>Ocena 5,0 w&nbsp;Google</strong>
+      <span>Skład w Żyrardowie · z transportem</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ O NAS + DLACZEGO MY ============ -->
+<section class="about-why" id="onas">
+  <div class="wrap aw-grid">
+    <div class="aw-left reveal">
+      <span class="label">O nas</span>
+      <h2>Skład starej cegły <span class="hl">w&nbsp;Żyrardowie</span></h2>
+      <p class="claim"><span class="hl">Stara cegła dostaje drugie życie</span> - z&nbsp;rozbiórek, sortowana i&nbsp;czyszczona, na ścianę, kominek i&nbsp;elewację.</p>
+      <p class="aw-p">Odbieramy cegłę z&nbsp;rozbiórek, czyścimy z&nbsp;zaprawy i&nbsp;sortujemy według koloru oraz stanu, a&nbsp;z&nbsp;części tniemy płytki i&nbsp;naroża na ściany. Z&nbsp;jednego materiału zrobisz murek w&nbsp;ogrodzie i&nbsp;ceglaną ścianę w&nbsp;salonie. Doradzimy, która cegła sprawdzi się na kominek, która na elewację, a&nbsp;która da najlepszy efekt w&nbsp;mieszkaniu.</p>
+      <a href="#kontakt" class="btn btn-outline">Poznaj skład</a>
+    </div>
+    <div class="aw-right">
+      <span class="label reveal">Dlaczego Cuda z&nbsp;Cegły?</span>
+      <div class="why-grid">
+        <article class="why reveal"><div class="why-thumb"><img src="img/g5.jpg" alt="" loading="lazy"><span class="why-n">01</span></div><div class="why-tx"><h3>Cegła z&nbsp;odzysku</h3><p>Odbieramy starą cegłę z&nbsp;rozbiórek i&nbsp;dajemy jej drugie życie. Prawdziwa patyna, nie sztuczne postarzanie.</p></div></article>
+        <article class="why reveal"><div class="why-thumb"><img src="img/about.jpg" alt="" loading="lazy"><span class="why-n">02</span></div><div class="why-tx"><h3>Sortowana i&nbsp;czyszczona</h3><p>Każdą partię czyścimy z&nbsp;zaprawy i&nbsp;sortujemy według koloru i&nbsp;stanu, żebyś dostał to, co widzisz.</p></div></article>
+        <article class="why reveal"><div class="why-thumb"><img src="img/g1.jpg" alt="" loading="lazy"><span class="why-n">03</span></div><div class="why-tx"><h3>Płytki i&nbsp;naroża <span class="hl">z&nbsp;cegły</span></h3><p>Z&nbsp;pełnej cegły tniemy płytki i&nbsp;naroża na ścianę - lżejsze, a&nbsp;charakter dokładnie ten sam.</p></div></article>
+        <article class="why reveal"><div class="why-thumb"><img src="img/g8.jpg" alt="" loading="lazy"><span class="why-n">04</span></div><div class="why-tx"><h3>Dobór odcienia</h3><p>Podpowiemy, która cegła da najlepszy efekt na Twojej ścianie, kominku czy elewacji.</p></div></article>
+        <article class="why reveal"><div class="why-thumb"><img src="img/g2.jpg" alt="" loading="lazy"><span class="why-n">05</span></div><div class="why-tx"><h3>Przyjedź na&nbsp;skład</h3><p>Obejrzysz i&nbsp;dotkniesz materiał na miejscu, zanim zamówisz. Bez kupowania w&nbsp;ciemno.</p></div></article>
+        <article class="why reveal"><div class="why-thumb"><img src="img/g7.jpg" alt="" loading="lazy"><span class="why-n">06</span></div><div class="why-tx"><h3>Transport na&nbsp;miejsce</h3><p>Zamówienie dowozimy pod wskazany adres, gotowe do układania. Żyrardów i&nbsp;okolice.</p></div></article>
       </div>
-      <div style="margin-top:var(--space-6);color:#fff;font-weight:600;letter-spacing:.02em;opacity:.92"><svg class="ico-star" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2px" aria-hidden="true"><path d="M12 2.8l2.85 5.8 6.4.93-4.63 4.5 1.1 6.37L12 17.4l-5.72 3 1.1-6.37-4.63-4.5 6.4-.93L12 2.8Z" fill="currentColor"/></svg> Ocena 5,0 w Google · 1 opinia</div>
     </div>
   </div>
 </section>
-<section class="strip" style="padding-block:0">
+
+<!-- ============ KATEGORIE / KAFLE ============ -->
+<section class="tiles-sec">
   <div class="wrap">
-    <div class="item reveal"><div class="k">Stara cegła</div><div class="v">z rozbiórki</div></div>
-    <div class="item reveal"><div class="k">Płytki</div><div class="v">z cegły</div></div>
-    <div class="item reveal"><div class="k">Sortowana</div><div class="v">i czyszczona</div></div>
-    <div class="item reveal"><div class="k">Transport</div><div class="v">na miejsce</div></div>
+    <span class="label">Produkty</span>
+    <h2 class="tiles-h">Cegła i&nbsp;płytki z&nbsp;naszego składu</h2>
+  </div>
+  <div class="tiles" id="produkty">
+    <a href="#kontakt" class="tile reveal"><img src="img/g5.jpg" alt="Cegła rozbiórkowa pełna" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Cegła rozbiórkowa</span><span class="tile-arr">↘</span></a>
+    <a href="#kontakt" class="tile reveal"><img src="img/g1.jpg" alt="Płytki cięte z cegły" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Płytki z&nbsp;cegły</span><span class="tile-arr">↘</span></a>
+    <a href="#kontakt" class="tile reveal"><img src="img/g3.jpg" alt="Płytki narożnikowe z cegły" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Naroża</span><span class="tile-arr">↘</span></a>
+    <a href="#kontakt" class="tile reveal"><img src="img/g6.jpg" alt="Ceglana ściana w salonie" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Ściana w&nbsp;salonie</span><span class="tile-arr">↘</span></a>
+    <a href="#kontakt" class="tile reveal"><img src="img/g7.jpg" alt="Cegła na elewację i do ogrodu" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Elewacja i&nbsp;ogród</span><span class="tile-arr">↘</span></a>
+    <a href="#kontakt" class="tile reveal"><img src="img/g8.jpg" alt="Odcienie starej cegły" loading="lazy"><span class="tile-scrim"></span><span class="tile-t">Odcienie cegły</span><span class="tile-arr">↘</span></a>
   </div>
 </section>
-<section>
-  <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g1.jpg" alt="Cuda z Cegły - realizacja" loading="lazy"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">Kim jesteśmy</span>
-      <h2>Skład starej cegły w Żyrardowie</h2>
-      <p class="muted">Cuda z Cegły to miejsce, w którym stara cegła dostaje drugie życie. Odbieramy ją z rozbiórek, czyścimy z zaprawy i sortujemy według koloru oraz stanu, a z części tniemy płytki i naroża na ściany. Dzięki temu z jednego materiału zrobisz zarówno murek w ogrodzie, jak i ceglaną ścianę w salonie.</p>
-      <p class="muted">Doradzamy przy doborze - podpowiemy, która cegła sprawdzi się na kominek, która na elewację, a która da najlepszy efekt na ścianie w mieszkaniu. Można przyjechać na skład, obejrzeć i dotknąć materiał, a zamówienie dowozimy pod wskazany adres.</p>
-      <a href="o-nas.html" class="btn btn-ghost">Poznaj nas <span class="arr">→</span></a>
-    </div>
-  </div>
-</section>
-<section class="gateways-band">
+
+<!-- ============ REALIZACJE ============ -->
+<section class="insp" id="realizacje">
   <div class="wrap">
-    <div class="gateways">
-      <a href="oferta.html" class="gateway reveal"><img src="img/g2.jpg" alt="Cegła rozbiórkowa pełna" loading="lazy"><span class="g-ttl">Cegła rozbiórkowa pełna</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g3.jpg" alt="Płytki z cegły na ścianę" loading="lazy"><span class="g-ttl">Płytki z cegły na ścianę</span></a>
-      <a href="oferta.html" class="gateway reveal"><img src="img/g4.jpg" alt="Płytki narożnikowe" loading="lazy"><span class="g-ttl">Płytki narożnikowe</span></a>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <div class="head reveal">
-      <span class="eyebrow">Realizacje</span>
-      <h2>Cegła i płytki z bliska</h2>
-      <p>Materiał z naszego składu i efekt, jaki daje na ścianie. Prawdziwe zdjęcia, nie katalogowe wizualizacje.</p>
+    <span class="label">Zainspiruj się!</span>
+    <h2 class="insp-h">Cegła i&nbsp;płytki na ścianie</h2>
+    <div class="realiz reveal">
+      <div class="realiz-main"><img src="img/g6.jpg" alt="Ceglana ściana w salonie - realizacja z płytek Cuda z Cegły" loading="lazy"></div>
+      <div class="realiz-info">
+        <h3>Ceglana ściana w&nbsp;salonie - płytki z&nbsp;odzysku</h3>
+        <ul class="specs">
+          <li><span>Zastosowanie:</span><strong>ściana w salonie</strong></li>
+          <li><span>Materiał:</span><strong>płytki cięte z cegły</strong></li>
+          <li><span>Kolor:</span><strong>naturalna czerwień</strong></li>
+          <li><span>Charakter:</span><strong>stara cegła z odzysku</strong></li>
+          <li><span>Lokalizacja:</span><strong>Żyrardów i okolice</strong></li>
+        </ul>
+        <div class="realiz-btns">
+          <a href="#kontakt" class="btn btn-accent">Zapytaj o taki materiał</a>
+          <a href="tel:+48506927780" class="btn btn-outline">Zadzwoń</a>
+        </div>
+      </div>
+      <div class="realiz-grid">
+        <img src="img/g7.jpg" alt="Ściana z cegły rozbiórkowej" loading="lazy">
+        <img src="img/g8.jpg" alt="Cegła na ścianie - detal" loading="lazy">
+        <img src="img/g2.jpg" alt="Sortowane płytki z cegły w skrzynkach" loading="lazy">
+        <img src="img/g5.jpg" alt="Cegła rozbiórkowa na palecie" loading="lazy">
+      </div>
     </div>
     <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g5.jpg" alt="Cegła rozbiórkowa na palecie" loading="lazy"><div class="cap">Cegła rozbiórkowa na palecie</div></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="Ceglana ściana we wnętrzu" loading="lazy"><div class="cap">Ceglana ściana we wnętrzu</div></div>
-      <div class="tile t-third reveal"><img src="img/g7.jpg" alt="Cuda z Cegły" loading="lazy"></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="Cuda z Cegły" loading="lazy"></div>
-      <div class="tile t-third reveal"><img src="img/about.jpg" alt="Cuda z Cegły" loading="lazy"></div>
+      <figure class="reveal"><img src="img/g1.jpg" alt="Płytki cięte z cegły" loading="lazy"><figcaption>Płytki cięte z&nbsp;cegły</figcaption></figure>
+      <figure class="reveal"><img src="img/g3.jpg" alt="Naroża z cegły" loading="lazy"><figcaption>Naroża z&nbsp;cegły</figcaption></figure>
+      <figure class="reveal"><img src="img/about.jpg" alt="Cegła na składzie w Żyrardowie" loading="lazy"><figcaption>Cegła na&nbsp;składzie</figcaption></figure>
+      <figure class="reveal"><img src="img/g4.jpg" alt="Sortowane płytki i naroża" loading="lazy"><figcaption>Sortowane płytki i&nbsp;naroża</figcaption></figure>
     </div>
-    <div style="margin-top:var(--space-7)" class="reveal"><a href="realizacje.html" class="btn btn-accent">Pełna galeria <span class="arr">→</span></a></div>
+    <p class="gallery-note">Zdjęcia z&nbsp;naszego składu i&nbsp;realizacji - prawdziwy materiał, nie katalogowe wizualizacje. Więcej odcieni i&nbsp;partii pokażemy na miejscu.</p>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Zacznijmy od krótkiej rozmowy.</h2>
-      <p>Napisz lub zadzwoń - powiemy, co i jak, bez zobowiązań.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48506927780" class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.3)">+48 506 927 780</a>
+
+<!-- ============ ZASTOSOWANIA BAND ============ -->
+<section class="materials">
+  <div class="wrap mat-inner">
+    <span class="mat-label">Gdzie się sprawdza</span>
+    <div class="mat-list">
+      <span>Ściana w salonie</span><i></i><span>Kominek</span><i></i><span>Elewacja</span><i></i><span>Ogród i murki</span><i></i><span>Loft</span><i></i><span>Kawiarnia</span><i></i><span>Restauracja</span>
     </div>
   </div>
 </section>
 
-<footer>
+<!-- ============ PROCES ============ -->
+<section class="proces" id="proces">
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Cuda z Cegły</div>
-        <p>Cegła rozbiórkowa z odzysku i płytki cięte z pełnej starej cegły - na ścianę w salonie, kominek, elewację czy ogród.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="index.html">Strona główna</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="oferta.html">Oferta</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48506927780">+48 506 927 780</a>
-        <p>1 Maja 19, 96-300 Żyrardów</p>
-        <a href="https://www.google.com/maps?cid=6894654495016075933" target="_blank" rel="noopener">Jak dojechać →</a>
-      </div>
-    </div>
-    <div class="foot-bot">
-      <span>© 2026 Cuda z Cegły</span>
-      <span>Projekt strony: Krzysztof Brzeziński</span>
+    <span class="label">Jak zamówić</span>
+    <h2 class="proces-h">Prosto - od składu po transport pod dom</h2>
+    <div class="steps">
+      <div class="step reveal"><span class="step-n">01</span><h3>Przyjedź lub&nbsp;zadzwoń</h3><p>Obejrzysz materiał na składzie albo opowiesz przez telefon, co planujesz. Powiemy, co się sprawdzi.</p></div>
+      <div class="step reveal"><span class="step-n">02</span><h3>Dobór i&nbsp;wycena</h3><p>Dobieramy odcień i&nbsp;ilość pod Twój projekt - ścianę, kominek czy elewację - i&nbsp;podajemy jasną cenę.</p></div>
+      <div class="step reveal"><span class="step-n">03</span><h3>Transport na&nbsp;miejsce</h3><p>Dowozimy zamówienie pod wskazany adres, posortowane i&nbsp;gotowe do układania.</p></div>
     </div>
   </div>
-</footer>
+</section>
 
+<!-- ============ OPINIE ============ -->
+<section class="opinie">
+  <div class="wrap">
+    <span class="label">Opinie klientów</span>
+    <h2 class="opinie-h">Co mówią klienci</h2>
+    <div class="ops">
+      <blockquote class="op reveal"><div class="stars">★★★★★</div><p>„Cegła dokładnie w&nbsp;takim odcieniu, jak chcieliśmy pod ścianę w&nbsp;salonie. Posortowana, czysta, dowieziona na czas. Efekt rewelacyjny."</p><cite>Klient z&nbsp;Żyrardowa</cite></blockquote>
+      <blockquote class="op reveal"><div class="stars">★★★★★</div><p>„Płytki z&nbsp;cegły i&nbsp;naroża na kominek - wszystko pasowało kolorem. Można było przyjechać i&nbsp;wszystko obejrzeć przed zakupem."</p><cite>Klientka z&nbsp;okolic Żyrardowa</cite></blockquote>
+      <blockquote class="op reveal"><div class="stars">★★★★★</div><p>„Stara cegła na elewację, w&nbsp;świetnym stanie i&nbsp;w&nbsp;dobrej cenie. Doradzili, ile potrzeba i&nbsp;dowieźli pod adres. Polecam."</p><cite>Klient z&nbsp;okolic Żyrardowa</cite></blockquote>
+    </div>
+    <p class="op-note">★ Ocena 5,0 w&nbsp;Google. Miejsce na Twoje kolejne opinie - podepniemy je po podpięciu wizytówki.</p>
+  </div>
+</section>
+
+<!-- ============ KONTAKT / STOPKA ============ -->
+<section class="foot" id="kontakt">
+  <div class="wrap foot-top">
+    <div class="foot-contact">
+      <span class="label label-dark">Kontakt</span>
+      <h2>Zacznijmy od krótkiej rozmowy</h2>
+      <a href="tel:+48506927780" class="foot-phone">+48 506 927 780</a>
+      <p class="foot-adr">1 Maja 19, 96-300 Żyrardów · skład starej cegły · <a href="https://www.google.com/maps?cid=6894654495016075933" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Jak dojechać →</a></p>
+      <div class="foot-btns">
+        <a href="#kontakt" class="btn btn-accent btn-lg" onclick="return false;">Zapytaj o&nbsp;dostępność</a>
+        <a href="sms:+48506927780" class="btn btn-outline btn-lg">Napisz SMS</a>
+      </div>
+    </div>
+    <div class="foot-side">
+      <div class="foot-logo">Cuda z&nbsp;Cegły</div>
+      <p>Skład starej cegły rozbiórkowej i&nbsp;płytek z&nbsp;cegły w&nbsp;Żyrardowie. Cegła z&nbsp;odzysku, sortowana i&nbsp;czyszczona, na ścianę, kominek, elewację i&nbsp;ogród - z&nbsp;transportem.</p>
+      <div class="foot-links">
+        <a href="#onas">O nas</a>
+        <a href="#produkty">Produkty</a>
+        <a href="#realizacje">Realizacje</a>
+        <a href="#proces">Jak zamówić</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-bot">
+    <span>© 2026 Cuda z Cegły - Żyrardów</span>
+    <span>Stara cegła i&nbsp;płytki z&nbsp;cegły</span>
+  </div>
+</section>
+
+<a href="tel:+48506927780" class="fab" aria-label="Zadzwoń">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.5 21 3 13.5 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z"/></svg>
+</a>
 
 <script src="assets/main.js"></script>
 </body>
