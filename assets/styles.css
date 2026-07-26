@@ -43,7 +43,9 @@ h2{font-size:clamp(1.9rem,3.8vw,3rem)}
 .util-menu{display:flex;gap:22px}
 .util-menu a{color:var(--ink);font-weight:500;transition:color .2s}
 .util-menu a:hover{color:var(--accent)}
-.util-phone{font-weight:700;color:var(--accent-dark)}
+.util-phone{display:inline-flex;align-items:center;gap:7px;font-weight:700;color:var(--accent-dark)}
+.util-phone-ic{display:inline-flex;width:15px;height:15px}
+.util-phone-ic svg{width:15px;height:15px}
 .main-nav{display:flex;align-items:center;gap:20px;height:96px}
 .logo{display:flex;flex-direction:column;line-height:1.02}
 .logo .lg-name{font-size:1.6rem;font-weight:800;letter-spacing:-.02em}
@@ -68,9 +70,9 @@ h2{font-size:clamp(1.9rem,3.8vw,3rem)}
 .drawer a.btn{border:2px solid var(--accent);text-align:center;margin-top:10px}
 
 /* ===== HERO ===== */
-.hero{position:relative;min-height:min(82vh,720px);display:flex;align-items:center;color:#fff;overflow:hidden}
+.hero{position:relative;min-height:min(82vh,720px);min-height:min(82svh,720px);display:flex;align-items:center;color:#fff;overflow:hidden}
 .hero-bg{position:absolute;inset:0}
-.hero-bg img{width:100%;height:100%;object-fit:cover;transform:scale(1.05);animation:hz 10s ease-out forwards}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:38% center;transform:scale(1.05);animation:hz 10s ease-out forwards}
 @keyframes hz{to{transform:scale(1)}}
 .hero-scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,16,12,.78),rgba(20,16,12,.42) 55%,rgba(20,16,12,.15))}
 .hero-inner{position:relative;z-index:2;padding-block:60px}
@@ -107,7 +109,8 @@ h2{font-size:clamp(1.9rem,3.8vw,3rem)}
 .tile:hover img{transform:scale(1.06)}
 .tile-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,12,9,.5) 0%,rgba(15,12,9,.05) 30%,rgba(15,12,9,.15) 100%)}
 .tile-t{position:absolute;top:26px;left:0;right:0;text-align:center;color:#fff;font-size:clamp(1.15rem,1.7vw,1.7rem);font-weight:800;text-shadow:0 2px 14px rgba(0,0,0,.5);padding:0 8px}
-.tile-arr{position:absolute;top:86px;left:0;right:0;text-align:center;color:var(--accent);font-size:1.6rem;font-weight:700;opacity:.95}
+.tile-arr{position:absolute;top:82px;left:0;right:0;display:flex;justify-content:center;opacity:.95}
+.tile-arr svg{width:26px;height:26px;fill:none;stroke:var(--accent);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 6px rgba(0,0,0,.45))}
 
 /* ===== ZAINSPIRUJ / REALIZACJA ===== */
 .insp{padding-block:clamp(64px,8vw,110px)}
@@ -153,7 +156,8 @@ h2{font-size:clamp(1.9rem,3.8vw,3rem)}
 .opinie-h{font-size:clamp(1.8rem,3.4vw,2.7rem);margin-bottom:40px}
 .ops{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .op{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:var(--shadow-sm)}
-.op .stars{color:var(--accent);font-size:1.1rem;letter-spacing:2px;margin-bottom:14px}
+.op .stars{display:flex;gap:3px;margin-bottom:14px}
+.op .stars svg{width:17px;height:17px;fill:var(--accent)}
 .op p{font-size:1rem;margin-bottom:16px}
 .op cite{font-style:normal;font-weight:600;color:var(--muted);font-size:.9rem}
 .op-note{text-align:center;color:var(--muted);font-size:.9rem;margin-top:24px}
@@ -204,6 +208,7 @@ h2{font-size:clamp(1.9rem,3.8vw,3rem)}
   .foot-side{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:32px}
 }
 @media(max-width:680px){
+  .hero-bg img{object-position:20% center}
   .why-grid{grid-template-columns:1fr}
   .tiles{grid-template-columns:1fr 1fr}
   .tile{height:240px}
